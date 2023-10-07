@@ -3,8 +3,6 @@ var merits = 0;
 const msgBox = document.querySelector('.msg-box');
 woodenFish.addEventListener('click',()=>{
     merits++;
-    // msgBox.classList.toggle('merits-accumulate-animation');
-    // setTimeout(()=>{msgBox.classList.remove('merits-accumulate-animation');},500);
     startAnimate();
 })
 

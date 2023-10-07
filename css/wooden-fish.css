@@ -22,7 +22,7 @@ img {
 .merits-accumulate-animation{
     height: 0.6rem;
     line-height: 0.6rem;
-    animation: msgBox .5s forwards;
+    animation: msgBox 1s forwards;
     transform: translateY(0px);
     color: white;
     font-size: 20px;
@@ -38,7 +38,7 @@ img {
     }
     50% {
         opacity: 1;
-        transform: translateY(-50px) scale(1.1);
+        transform: translateY(-60px) scale(1.1);
     }
     100% {
         opacity: 0;
