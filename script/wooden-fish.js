@@ -13,5 +13,5 @@ function startAnimate() {
     msgBox.appendChild(div);
     setTimeout(() => {
       div.remove();
-    }, 100000);
+    }, 1000);
   }
